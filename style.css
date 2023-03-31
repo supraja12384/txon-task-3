@@ -1,0 +1,39 @@
+body{
+    background-color: grey;
+}
+.box {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    background: whitesmoke;
+}
+h1 {
+    font-size: 36px;
+}
+button {
+    background-color:black;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid hotpink;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+li {
+    font-size: 18px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+li.done {
+    background-color: rgb(242, 255, 204);
+    text-decoration: line-through;
+}
